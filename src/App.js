@@ -10,7 +10,6 @@ function App() {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<h2>Hello from Reaction!!</h2>
-				<p>React is really cool.</p>
 				<p>Beautified it!!</p>
 				<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
 					Learn React
