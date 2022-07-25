@@ -6,6 +6,8 @@ COPY package.json .
 RUN npm install -g nodemon
 RUN npm install
 
-COPY . .
+COPY . .      
+# This COPY line not necessary with volume mounting and docker-compose but still leave it here to be safe and in the event that we might not use docker-compose
 
-CMD ["nodemon", "--exec", "npm", "run", "start"]
+CMD ["npm", "run", "start"]
+# CMD ["nodemon", "--exec", "npm", "run", "start"] # With docker-compose, this line is not needed. line 11 works just fine.
