@@ -7,6 +7,7 @@ import './App.css'
 function App() {
 	return (
 		<div className="App">
+			<h3>Looks like Docker is difficult to learn but will make lives lot easier once we get the hang of it.</h3>
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<h2>Hello from Reaction!!</h2>
